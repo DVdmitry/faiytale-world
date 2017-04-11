@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://use.fontawesome.com/82dbd200d6.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="script/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/ui-lightness/jquery-ui.css">
+</head>
+<body>
+
+
+<div id="wrap" class="container-fluid">
+
+</div>
+<canvas id = "cDraw" width = "1000" height = 500"></canvas>
+
+<svg id="smile" class="smiley default" width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+
+    <title>happy smily</title>
+    <g>
+        <title>background</title>
+        <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+    </g>
+    <g>
+        <title>Layer 1</title>
+        <path class ="face" stroke="#000000" id="svg_2"
+              d="m140.99998,244c0,-129.83428 98.90054,-235.00001 221.00001,-235.00001c122.09942,0 221,105.16573 221,235.00001c0,129.83423 -98.90058,235 -221,235c-122.09947,0 -221.00001,-105.16577 -221.00001,-235z"
+              stroke-linecap="null" stroke-linejoin="null" stroke-width="5" fill="#F0AD4E"/>
+        <ellipse id="svg_6" ry="55.000001" rx="38.999998" cy="179.999999" cx="450.000001" stroke-linecap="null"
+                 stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#ffffff"/>
+        <ellipse rx="2" id="svg_8" cy="284" cx="269" stroke-linecap="null" stroke-linejoin="null"
+                 stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#ffffff"/>
+        <ellipse class="eyes" stroke="#000000" id="svg_9" ry="24.5" rx="28" cy="207.5" cx="450" stroke-linecap="null"
+                 stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#000000"/>
+        <ellipse ry="55.000001" rx="38.999998" cy="181.999999" cx="275.000001" stroke-linecap="null"
+                 stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#ffffff"
+                 id="svg_1"/>
+        <ellipse class="eyes" stroke="#000000" ry="24.5" rx="28" cy="210" cx="274" stroke-linecap="null"
+                 stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="#000000" id="svg_3"/>
+        <path class="mouth" stroke="#000000" fill="none" stroke-width="10" stroke-linejoin="null" stroke-linecap="null"
+              d="m249.97168,319.19461c29.14575,56.46585 86.0849,76.26291 127.55664,76.11072c41.47174,-0.15219 95.26929,-28.61343 118.25214,-78.9913"
+              id="svg_4" transform="rotate(-179.53700256347656 372.8760681152344,355.8101196289063) "/>
+        <line class="browL" stroke-linecap="null" stroke-linejoin="null" id="svg_10" y2="128.4" x2="326.5" y1="92.4"
+              x1="250.5" fill-opacity="null" stroke-opacity="null" stroke-width="5" stroke="#000000" fill="none"/>
+        <line class="browR" stroke-linecap="null" stroke-linejoin="null" id="svg_11" y2="81.4" x2="474.5" y1="108.4"
+              x1="386.5" fill-opacity="null" stroke-opacity="null" stroke-width="5" stroke="#000000" fill="none"/>
+    </g>
+    <g class="tear">
+        <path d="m346.25,338.75" fill="blue" stroke="#000" stroke-width="3.75" id="svg_111"/>
+        <path d="m476.99014,218.67437c0.89371,0 -3.57405,11.02408 -9.82923,28.06367c-2.68114,9.02101 1.78742,20.04599 14.29779,20.04599c9.82923,-1.00243 12.28434,-7.55185 10.72214,-17.8082c-5.13545,-17.97125 -14.29699,-30.30145 -15.1907,-30.30145l0,-0.00001z"
+              fill="blue" fill-rule="evenodd" stroke="#000" stroke-width="1.25" id="svg_112"/>
+    </g>
+</svg>
+
+
+<script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"
+        integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+
+<script src=script/functions.js></script>
+<script src=script/objects.js></script>
+<script src=script/pages.js></script>
+<script
+        src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+        integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+        crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,324 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrap {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.forBackGrColor {
+    background: linear-gradient(#FFFFFF, #E4E4E4);
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn1 {
+    border: 10px solid white;
+}
+
+.pict-panel {
+    margin-top: -20px;
+}
+
+.col-lg-6 .big-picture {
+    overflow: hidden;
+    border: 3px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 700px;
+}
+
+.bigpict {
+    text-align: center;
+}
+
+.smallpictpanel {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.small-picture {
+    height: 80px;
+    width: 110px;
+    border: 2px solid grey;
+}
+
+.small-picture:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.bigcard {
+    border: 10px white solid;
+}
+
+.cardsize {
+    overflow: hidden;
+}
+
+.cardsize:hover {
+    transform: scale(1.03);
+    transition: transform 1s;
+    cursor: pointer
+}
+
+.row .cardsize2 {
+    width: 390px;
+    height: 240px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.block .mainClassCard {
+    margin-bottom: 3px;
+    padding: 0px;
+    width: 210px;
+    height: 240px;
+}
+
+#left, #right {
+    margin-top: 180px;
+    opacity: 0.7;
+}
+
+#left {
+    float: right;
+    padding-right: 0px;
+}
+
+#right {
+    float: left;
+    padding-left: 0px;
+}
+
+#left:hover, #right:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#fart {
+    position: absolute;
+    top: -10000px;
+}
+
+.audio {
+    transform: scale(1.6);
+    margin-left: 240px;
+    margin-top: 30px;
+}
+
+#progress {
+    padding: 0px;
+    margin: 0px;
+}
+
+.cardTxt {
+    font-size: 25px;
+}
+
+.vision {
+    visibility: hidden;
+}
+
+.bonusUp {
+    color: green;
+    animation: animateUp 2.5s linear;
+    position: relative;
+    left: -130px;
+}
+
+@keyframes animateUp {
+    0% {
+        opacity: 1;
+        transform: translateY(0px) translateX(200px)
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(-100px) translateX(200px) translateZ(0);
+        opacity: 0
+    }
+
+}
+
+.bonusDown {
+    position: relative;
+    left: -130px;
+    color: red;
+    animation: animateDown 2.5s linear;
+}
+
+@keyframes animateDown {
+    0% {
+        opacity: 1;
+        transform: translateY(0px) translateX(200px)
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(100px) translateX(200px) translateZ(0);
+        opacity: 0
+    }
+
+}
+
+.inputPoints {
+    width: 60px;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+    overflow: visible;
+}
+
+#smile {
+    position: absolute;
+    top: 130px;
+    left: -100px;
+    transform: scale(0.3);
+    display: none;
+}
+
+.default .eyes {
+    fill: green;
+    transform: translateY(-20px) scale(.8);
+    transform-origin: center;
+    transition: all 2s
+}
+
+.default .browL {
+    transform: rotate(-25deg) translate(-10px, 1px);
+    transform-origin: center;
+    transition: all 2s
+}
+
+.default .browR {
+    transform: rotate(15deg) translate(8px, 10px);
+    transform-origin: center;
+    transition: all 2s
+}
+
+.default .tear {
+    display: none;
+}
+
+.default .mouth {
+    transform: rotateX(70deg);
+    transform-origin: center;
+    transition: all 2s
+}
+
+.default .face {
+    fill: #F0AD4E;
+    transition: all 2s
+}
+
+.glad .eyes {
+    fill: blue;
+    transform: translateY(-50px) scale(.8);
+    transform-origin: center;
+    transition: all 2s
+}
+
+.glad .browL {
+    transform: rotate(-65deg) translate(-10px, -25px);
+    transform-origin: center;
+    transition: all 2s
+}
+
+.glad .browR {
+    transform: rotate(35deg) translate(-8px, -10px);
+    transform-origin: center;
+    transition: all 2s
+}
+
+.glad .tear {
+    display: none;
+}
+
+.glad .mouth {
+    transform: rotateX(0deg);
+    transform-origin: center;
+    transition: all 2s
+}
+
+.glad .face {
+    fill: #ffff00;
+    transition: all 2s
+}
+
+.sad .eyes {
+    fill: grey;
+    transform: translateY(0px) scale(.8);
+    transform-origin: center;
+    transition: all 2s
+}
+
+.sad .browL {
+    transform: rotate(5deg) translate(25px, -1px);
+    transform-origin: center;
+    transition: all 2s
+}
+
+.sad .browR {
+    transform: rotate(0deg) translate(8px, 10px);
+    transform-origin: center;
+    transition: all 2s
+}
+
+.sad .tear {
+    display: block;
+    transform: translateY(100px);
+    transition: all 2s
+}
+
+.sad .mouth {
+    transform: rotateX(140deg);
+    transform-origin: center;
+    transition: all 2s
+}
+
+.sad .face {
+    fill: #D978AE;
+    transition: all 2s
+}
+
+#cDraw {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .block .mainClassCard {
+        display: none;
+    }
+
+    #smile {
+        top: -1500px;
+    }
+
+    #cDraw {
+        top: -1500px;
+    }
+
+    @media (max-width: 1000px) {
+        #left, #right, .smallpictpanel, block .mainClassCard {
+            display: none;
+        }
+    }
+
+
+

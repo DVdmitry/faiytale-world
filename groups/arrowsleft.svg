@@ -1,0 +1,32 @@
+<svg width="219.21332" height="136.37059" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="a">
+   <feGaussianBlur stdDeviation="1.59117"/>
+  </filter>
+  <filter height="1.2161" width="1.1346" y="-0.10804" x="-0.06729" id="c">
+   <feGaussianBlur stdDeviation="4.61809"/>
+  </filter>
+  <filter height="2.2" width="1.3061" y="-0.60002" x="-0.15306" id="b">
+   <feGaussianBlur stdDeviation="2.99652"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="138.37059" width="221.21332" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <path id="svg_12" stroke-width="3.5" stroke="#000" filter="url(#c)" fill-rule="evenodd" fill="#0f45fe" d="m174.859998,98.065806c-39.352,6.0254 -74.605,7.1536 -108.31,0l6.364,26.163c-22.964,-14.118 -54.774,-29.9 -59.276,-51.619c4.2563,-21.885 38.456,-34.809 61.167,-47.467l-7.7782,24.132c34.783,-10.804 70.93,-7.9605 107.59,0l0.24264,48.79l0.00056,0.001z"/>
+   <path id="svg_13" stroke-width="3.5" stroke="#000" fill-rule="evenodd" fill="#0f45fe" d="m182.409998,85.560006c-39.352,6.0254 -74.605,7.1536 -108.31,0l6.364,26.163c-22.964,-14.118 -54.774,-29.9 -59.276,-51.619c4.2563,-21.885 38.456,-34.809 61.167,-47.467l-7.7782,24.132c34.783,-10.804 70.93,-7.9605 107.59,0l0.24264,48.79l0.00056,0.001z"/>
+   <path id="svg_14" stroke-width="4" stroke-linejoin="round" stroke="#000" opacity="0.7562" filter="url(#a)" fill="#fff" d="m123.925254,28.973662a-10.370326,10.370326 0 1 1 20.740651,0a-10.370326,10.370326 0 1 1 -20.740651,0z"/>
+   <path id="svg_15" stroke-width="4" stroke-linejoin="round" stroke="#000" opacity="0.7562" fill="#010101" d="m130.106742,29.16143a-3.789023,3.789023 0 1 1 7.578326,0a-3.789023,3.789023 0 1 1 -7.578326,0z"/>
+   <path id="svg_16" stroke-width="4" stroke-linejoin="round" stroke="#000" opacity="0.7562" filter="url(#a)" fill="#fff" d="m92.135254,28.613662a-10.370326,10.370326 0 1 1 20.740651,0a-10.370326,10.370326 0 1 1 -20.740651,0z"/>
+   <path id="svg_17" stroke-width="4" stroke-linejoin="round" stroke="#000" opacity="0.7562" fill="#010101" d="m97.816742,28.80143a-3.789023,3.789023 0 1 1 7.578326,0a-3.789023,3.789023 0 1 1 -7.578326,0z"/>
+   <path id="svg_18" stroke-width="1.9" stroke="#000" fill="none" d="m145.719998,14.680006l-8.9286,-5.3572l-9.2857,3.9286"/>
+   <path id="svg_19" stroke-width="1.9" stroke="#000" fill="none" d="m110.369998,13.260006l-10,-4.2857l-10,6.0714"/>
+   <path id="svg_20" stroke-width="5.2" stroke="#090000" filter="url(#b)" fill="none" d="m138.579998,57.185806s-15.714,6.4286 -22.143,6.4286c-6.8698,0 -19.643,-6.7857 -19.643,-6.7857"/>
+   <path id="svg_21" stroke-width="5.2" stroke="#d20101" fill="none" d="m138.719998,57.010006s-15.714,6.4286 -22.143,6.4286c-6.8698,0 -19.643,-6.7857 -19.643,-6.7857"/>
+  </g>
+ </g>
+</svg>
